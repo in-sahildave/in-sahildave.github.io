@@ -27,14 +27,15 @@
 
 // EXAMPLE: amsf.github.io custom appearance
 :root {
+  --fontstack-sans-serif: 'Source Sans Pro', sans-serif;
+  --fontstack-serif: 'Merriweather', serif;
+  --fontstack-default: var(--fontstack-sans-serif);
   --code-color-h: calc(var(--link-color-h) + 10);
   --code-color-s: calc(var(--link-color-s) * .2 + 40%);
 }
 
-
-
 .content {
-  h2 { font-size: 150%; opacity: .8; font-weight: bold; }
+  h2 { font-size: 150%; opacity: .8; font-weight: bold;}
   h3 { font-size: 96%; opacity: .7; }
   h4 { font-size: 84%;  opacity: .6; }
   h5 { font-size: 72%;  opacity: .5; }
@@ -43,9 +44,8 @@
     opacity: .4;     
     margin: 2vmin 0 8vmin;   
   }
-  .sub-title {
-    font-size: 108%;
-    opacity: .8;
+  p {
+    line-height: calc(var(--line-height));
   }
 
   header {

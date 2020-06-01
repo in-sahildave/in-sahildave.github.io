@@ -20,12 +20,14 @@
   font-size: 360%;
   font-weight: bold;
   letter-spacing: var(--heading-letter-spacing);
+  font-family: var(--fontstack-serif);
 }
 
 @mixin sub-heading {
   font-size: 72%;
   font-weight: normal;
   opacity: .5;
+  font-family: var(--fontstack-serif);
 }
 
 @mixin padding-offset($padding-left, $padding-right: $padding-left) {

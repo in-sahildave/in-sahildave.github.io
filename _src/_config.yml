@@ -159,7 +159,7 @@ twitter:        sahiltheway
 
 # social settings
 github_url: https://github.com/sahildave/
-linkedin_url: https://www.linkedin.com/in/sahildave1991/
+linkedin_url: https://www.linkedin.com/in/sahiltheway/
 twitter_url: https://twitter.com/sahiltheway
 dribbble_url: https://dribbble.com/sahildave
 behance_url: https://www.behance.net/sahildave
@@ -169,7 +169,7 @@ social:
   links:
     - https://twitter.com/sahiltheway
     - https://dribbble.com/sahildave
-    - https://www.linkedin.com/in/sahildave1991/
+    - https://www.linkedin.com/in/sahiltheway/
     - https://www.behance.net/sahildave
     - https://github.com/sahildave/ 
 
@@ -208,7 +208,7 @@ rss_excerpt:    false
 # Show or hide generator credits, require theme support
 #
 # Default:      true
-credits:        true
+credits:        false
 
 # Custom records in robots.txt
 #
